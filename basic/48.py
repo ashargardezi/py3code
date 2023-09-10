@@ -1,0 +1,10 @@
+# f=open("new2.text","r")
+# f.seek(5)
+# print(f.tell())
+# print(f.read(3))
+f=open("new2.text","w")
+f.write("hellow world")
+f.truncate(7 )
+print(f)
+with open("new2.text","r") as d:   
+ print(d.readline())
